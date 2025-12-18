@@ -1,0 +1,43 @@
+body{
+   background-color: aquamarine;
+   color: brown;
+   font-family: sans-serif;
+    font-size: large;
+}
+.naslov{
+    color: black;
+    text-align: center;
+}
+.break-line{
+    display: block;
+}
+hr{
+    height: 4px;
+    background-color: yellow;
+}
+.image-left{
+    float: left;
+    margin-right: 15px;
+    width: 12%;
+}
+.image-right{
+    float: right;
+    margin-left: 15px;
+    width: 12%;
+}
+.container{
+    display: flex;
+}
+.box{
+    flex: 1;
+    margin: 15px;
+    border: solid;
+    border-width: 4px;
+    padding: 12px;
+    border-color: greenyellow;
+}
+button{
+    background-color: black;
+    color: rgb(8, 34, 228);
+    width: 100px;
+}
